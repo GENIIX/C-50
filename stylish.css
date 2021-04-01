@@ -1,0 +1,26 @@
+*{
+    border:solid
+}
+h1{
+    color:turquoise
+}
+
+h2{
+    color:violet
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+display:flex;
+flex-wrap:wrap;
+justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+
+}
